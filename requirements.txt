@@ -12,6 +12,7 @@ bs4
 cachetools
 cloudscraper
 countryinfo
+coroutine
 cowpy
 cryptg
 cryptography
