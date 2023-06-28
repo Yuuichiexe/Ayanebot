@@ -119,10 +119,10 @@ PM_START_TEX = """
 
 PM_START_TEXT = """
 *Hᴇʏ* {}, 🥀
-*๏ ᴛʜɪs ɪs* Zero Two !
-➻ ᴢᴇʀᴏ ᴛᴡᴏ ɪs ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴘʟᴜɢɪɴs.
+*๏ ᴛʜɪs ɪs* 𝙴ꜱᴅᴇᴀᴛʜ !
+⟢ 𝙴ꜱᴅᴇᴀᴛʜ ɪs ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴘʟᴜɢɪɴs.
 ──────────────────
-[๏](https://telegra.ph/file/c4bb6cdddb3b5378b6c26.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+[๏](https://telegra.ph/file/8c946318ce9b14c673864.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
 """
 
 
@@ -135,14 +135,18 @@ I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
 buttons = [
     [
         InlineKeyboardButton(
-            text="✨ Aᴅᴅ Mᴇ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ ✨ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ + ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text=" 📚𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌", callback_data="help_back"),
-        InlineKeyboardButton(text="💬Support Group", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🍁ʜᴇʟᴘ🍁", callback_data="help_back") 
+    ],
+    [
+        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Mega_Bot_Updates"),
     ],
 ]
+
 
 
 HELP_STRINGS = """
