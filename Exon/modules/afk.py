@@ -15,7 +15,7 @@ from Exon import REDIS
 from Exon.modules.users import get_user_id
 
 from Exon.modules.helper_funcs.alternate import send_message
-from Exom.modules.helper_funcs.readable_time import get_readable_time
+from Exon.modules.helper_funcs.readable_time import get_readable_time
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
