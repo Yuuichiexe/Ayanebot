@@ -93,11 +93,11 @@ def kuki(update: Update, context: CallbackContext):
     msg = "Choose an option"
     keyboard = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            text="Enable Chatbot",
+            text="ᴇɴᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ",
             callback_data="add_chat({})")],
        [
         InlineKeyboardButton(
-            text="Disable Chatbot",
+            text="ᴅɪꜱᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ",
             callback_data="rm_chat({})")]])
     message.reply_text(
         msg,
@@ -152,10 +152,9 @@ def list_all_chats(update: Update, context: CallbackContext):
 __help__ = """
 *Admins only Commands*:
 • /Chatbot*:* Shows chatbot control panel
-*Powered by* @SurveyCorpsXteam
 """
 
-__mod_name__ = "ChatBot"
+__mod_name__ = "𝙲ʜᴀᴛʙᴏᴛ"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", kuki, run_async=True)
