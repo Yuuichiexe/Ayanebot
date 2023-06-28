@@ -7,7 +7,7 @@ from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters
 
-import Exon.modules.helper_funcs.string_store as fun
+
 import Exon.modules.NekoFunBot_Strings as fun_strings
 from Exon import dispatcher, SUPPORT_CHAT
 from Exon.events import register
