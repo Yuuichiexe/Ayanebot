@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from telethon import events
 from telethon.tl import functions, types
 
-from Exon import tbot
+from Exon import telethn
 
 COLORS = [
     "#F07975",
