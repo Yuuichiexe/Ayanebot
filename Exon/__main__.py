@@ -461,7 +461,7 @@ def Exon_callback_data(update, context):
                 [
                     [
                         InlineKeyboardButton(text="⬅️", callback_data="Exon_prev"),
-                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Exon_back"),
+                        InlineKeyboardButton(text="𝙱ᴀᴄᴋ", callback_data="Exon_back"),
                         InlineKeyboardButton(text="➡️", callback_data="Exon_next"),
                     ]
                 ]
@@ -758,7 +758,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/4fd93da582dcd9487e2cc.mp4",
+                animation="https://telegra.ph/file/3328e14a22c9758988dc5.mp4",
                 caption=f"""
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
