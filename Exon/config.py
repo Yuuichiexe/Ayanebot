@@ -107,7 +107,6 @@ class Config(object):
     BL_CHATS = []
     MONGO_PORT = "27017"
     MONGO_DB = "Levi"
-    STRING_SESSION = "BQBZsZXNVZZAqAxcLEWp2sqzVMrg9o9FXEChXut_iw6KGX5BWovKWY4qV3dZRxgI0wu-4efSQuZ-e_HiQahpbM3ME_59oxeHx3dfwqDTPLE5dzO2hHu_q1bQf0b5rfHqA5yF02fy3Qy8anRXkHpuoBwIumLxZSrsWS7S0jlIhNZw8mFJoga_QvqWdHlzhPfdsPIFrV_Ye3vbQHOytK3gs6yuNeu6MGwRysIPxcYZ5450-iUUg-1TUtINGeSzaZ6afGCEWAPuZzMhPda9NzQIbhkb4y9rdrG6NdsqXhMJK-UPEYcqVpjGbvi6ZFda40UaVnv4B83JYY-0tH-BqNpLTSaPAAAAAVG4GlQA"
     PHOTO = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
