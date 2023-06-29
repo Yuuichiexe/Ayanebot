@@ -12,6 +12,7 @@ bs4
 cachetools
 cloudscraper
 countryinfo
+coroutine
 cowpy
 cryptg
 cryptography
@@ -53,6 +54,7 @@ motor<2.4.0,>=2.1.0
 multicolorcaptcha
 nekos.py
 nltk
+nudepy
 NumPy
 odmantic
 opencv-python-headless
