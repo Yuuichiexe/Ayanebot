@@ -187,7 +187,7 @@ def addwhitelist(update: Update, context: CallbackContext) -> str:
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀ ᴛʀᴜᴇ 02's ᴄʟᴀssᴍᴀᴛᴇ!")
+        message.reply_text("ᴛʜɪs ᴜsᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀ ᴛʀᴜᴇ ᴇꜱᴅᴇᴀᴛʜ's ᴄʟᴀssᴍᴀᴛᴇ!")
         return ""
 
     data["whitelists"].append(user_id)
@@ -433,7 +433,7 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 def whitelistlist(update: Update, context: CallbackContext):
     reply = "<b>wolves:</b>\n\n"
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴢᴇʀᴏ ᴛᴡᴏ..</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ 𝙴ꜱᴅᴇᴀᴛʜ..</code>",
         parse_mode=ParseMode.HTML,
     )
     bot = context.bot
@@ -507,7 +507,7 @@ def sudolist(update: Update, context: CallbackContext):
 def devlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴛʜᴇ sᴜʀᴠᴇʏ ᴄᴏʀᴘs HQ..</code>",
+        "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ ᴇꜱᴅᴇᴀᴛʜ ʙᴏᴛ..</code>",
         parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
