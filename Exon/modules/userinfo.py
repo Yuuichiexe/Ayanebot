@@ -243,11 +243,11 @@ def info(update: Update, context: CallbackContext):
     buttons = [
     [
                         InlineKeyboardButton(
-                             text="Health",
-                             url="https://t.me/WOFBotsUpdates/2"),
+                             text="𝙷ᴇᴀʟᴛʜ",
+                             url="https://t.me/mega_bot_updates/3"),
                        InlineKeyboardButton(
-                             text="Disasters",
-                             url="https://t.me/WOFBotsUpdates/3"),
+                             text="𝙳ɪꜱᴀꜱᴛᴇʀꜱ",
+                             url="https://t.me/mega_bot_updates/4"),
                     ],
     ]
     user_id = extract_user(update.effective_message, args)
