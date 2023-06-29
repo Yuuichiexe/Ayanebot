@@ -195,7 +195,7 @@ if ENV:
     MONGO_DB = "Levi"
     GOOGLE_CHROME_BIN = "/usr/bin/google-chrome"
     CHROME_DRIVER = "/usr/bin/chromedriver"
-    DB_URL = os.environ.get("DATABASE_URL")
+    DB_URI = os.environ.get("DATABASE_URL")
     START_IMG = os.environ.get("START_IMG")
     HELP_IMG = os.environ.get("HELP_IMG")
 
