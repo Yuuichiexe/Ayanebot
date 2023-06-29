@@ -38,23 +38,23 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "13715737"
-    API_HASH = "9b5ff18e133fed80f0f6cd7bf30cffdd"
-    APP_ID = "13715737"  # 2nd API_ID
-    APP_HASH = "9b5ff18e133fed80f0f6cd7bf30cffdd"  # 2ns API_HASH
-    ARQ_API_KEY = "HOYQOV-EYTKTC-RLELMG-IPFLVH-ARQ"
-    BOT_ID = "5372584050"
-    TOKEN = "5372584050:AAFLZtWstTJds_b4qCyNAHaYvbiVKQ_-BG8"
-    OWNER_ID = "2033411815"
+    API_ID = "10821359"
+    API_HASH = "2b1b1a5e842bff25ad1baa12657b3894"
+    APP_ID = "23377505"  # 2nd API_ID
+    APP_HASH = "7fed25e2e1858a5f3add05e30393e7f3"  # 2ns API_HASH
+    ARQ_API_KEY = "HDPBMZ-QXNRNN-QYGIVF-GMDXHT-ARQ"
+    BOT_ID = "6178626262"
+    TOKEN = "6178626262:AAGYaJJ0-9seijKX0wT54BW_PaiER82rpN0"
+    OWNER_ID = "6257122478"
     OPENWEATHERMAP_ID = "22322"
-    OWNER_USERNAME = "Jean_Uchiha"
-    BOT_USERNAME = "@Zero_Two_Music_Bot"
-    SUPPORT_CHAT = "AbishnoiMF"
-    UPDATES_CHANNEL = "Abishnoi_bots"
-    SUPPORT_CHANNEL = "Abishnoi_bots"
-    JOIN_LOGGER = "-1001825712994"
-    EVENT_LOGS = "-1001843609198"
-    ERROR_LOGS = "-1001843609198"
+    OWNER_USERNAME = "Fuckingenos"
+    BOT_USERNAME = "Esdeath_probot"
+    SUPPORT_CHAT = "Mega_Bots_Support"
+    UPDATES_CHANNEL = "Mega_Bot_Updates"
+    SUPPORT_CHANNEL = "TeamMegaz"
+    JOIN_LOGGER = "-1001972656429"
+    EVENT_LOGS = "-1001837797753"
+    ERROR_LOGS = "-1001972656429"
 
     SQLALCHEMY_DATABASE_URI = ""
     DB_URL = ""
