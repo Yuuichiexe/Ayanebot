@@ -67,7 +67,7 @@ async def restart(client, m: Message):
     )
     await asyncio.sleep(0.1)
     await m.reply_photo(
-        "https://telegra.ph/file/3328e14a22c9758988dc5.mp4"),
+        "https://telegra.ph/file/3328e14a22c9758988dc5.mp4")
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
 » **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx/ɢᴇɴᴏꜱ](https://t.me/{OWNER_USERNAME})
