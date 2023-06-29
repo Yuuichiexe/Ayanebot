@@ -56,11 +56,12 @@ class Config(object):
     EVENT_LOGS = "-1001837797753"
     ERROR_LOGS = "-1001972656429"
 
-    SQLALCHEMY_DATABASE_URI = ""
-    DB_URL = ""
-    MONGO_DB_URL = ""  # needed for any database modules
-    MONGO_URL = ""
-    DB_URL2 = ""  # YOUR MONGO_DB_URI
+    SQLALCHEMY_DATABASE_URI = "postgres://xzuvghotkiomnu:e2263a2d1e5ef572304f570fd86a06513737e2a6f70f9acbbe185b380dbda12b@ec2-35-169-184-61.compute-1.amazonaws.com:5432/d10ivlrn2n4rss"
+    DB_URL = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elep
+hantsql.com/ctoixwyr"
+    MONGO_DB_URL = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_URL = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"
+    DB_URL2 = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
@@ -68,10 +69,10 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""
+    SPAMWATCH_API = "TVsho8jatGQ6xyA61O~PNMBZaRB9NTNKyFMKwmWWDq8tU7mMF~MKydYWKQxCaW8M"
     SPAMWATCH_SUPPORT_CHAT = "@AbishnoiMF"
 
-    REDIS_URL = ""
+    REDIS_URL = "redis://Madharjoot:GuKhao123_@redis-12276.c275.us-east-1-4.ec2.cloud.redislabs.com:12276/Madharjoot"
 
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     DEV_USERS = get_user_list("elevated_users.json", "devs")
