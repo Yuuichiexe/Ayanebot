@@ -107,6 +107,7 @@ class Config(object):
     BL_CHATS = []
     MONGO_PORT = "27017"
     MONGO_DB = "Levi"
+    STRING_SESSION = "kuchb"
     PHOTO = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
