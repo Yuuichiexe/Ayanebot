@@ -56,8 +56,8 @@ class Config(object):
     EVENT_LOGS = "-1001837797753"
     ERROR_LOGS = "-1001972656429"
 
-    DB_URI = "postgres://xzuvghotkiomnu:e2263a2d1e5ef572304f570fd86a06513737e2a6f70f9acbbe185b380dbda12b@ec2-35-169-184-61.compute-1.amazonaws.com:5432/d10ivlrn2n4rss"
-    DB_URL = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"
+    SQLALCHEMY_DATABASE_URI = "postgres://xzuvghotkiomnu:e2263a2d1e5ef572304f570fd86a06513737e2a6f70f9acbbe185b380dbda12b@ec2-35-169-184-61.compute-1.amazonaws.com:5432/d10ivlrn2n4rss"
+    DB_URI = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"
     MONGO_DB_URL = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     MONGO_URL = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"
     DB_URL2 = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"  # YOUR MONGO_DB_URI
