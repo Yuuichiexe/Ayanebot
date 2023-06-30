@@ -444,7 +444,7 @@ async def q(event):
     os.remove("sticker.webp")
 
 
-__mod_name__ = "Quotly"
+__mod_name__ = "𝚀ᴜᴏᴛʟʏ"
 
 __help__ = """
 • /q *:* To quote a message.
