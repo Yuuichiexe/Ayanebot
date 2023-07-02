@@ -1,5 +1,7 @@
 aiohttp==3.8.3
 alphabet-detector==0.0.7
+aiofiles
+aiogram
 APScheduler==3.10.0
 AIOEngine
 asyncio==3.4.3
