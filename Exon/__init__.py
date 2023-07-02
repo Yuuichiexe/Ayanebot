@@ -38,7 +38,7 @@ import spamwatch
 import telegram.ext as tg
 from aiohttp import ClientSession
 from motor import motor_asyncio
-from odmantic import AIOEngine
+
 from pymongo import MongoClient
 from pyrogram import Client
 from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, PeerIdInvalid
