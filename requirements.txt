@@ -1,9 +1,9 @@
 aiofiles
 aiogram
-aiohttp[speedups]
+aiohttp==3.8.3
 aioredis
 alphabet_detector
-asyncio
+asyncio==3.4.3
 beautifulsoup4==4.11.1
 better_profanity
 bing_image_downloader
@@ -73,7 +73,7 @@ pyrogram==1.4.16
 python-arq
 python-dotenv
 python-rapidjson
-python-telegram-bot==13.14
+python-telegram-bot==20.00
 pytimeparse
 pytube
 pytz
