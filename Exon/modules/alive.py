@@ -31,7 +31,7 @@ ASAU = [
 async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
-    await asyncio.sleep(1)
+    await asyncio.sleep(2)
     await accha.edit("ᴀʟɪᴠɪɴɢ..")
     await asyncio.sleep(0.1)
     await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
@@ -45,8 +45,7 @@ async def restart(client, m: Message):
         random.choice(PHOTO),
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.me/NIOAX)
-» **ᴍʏ ᴅᴇᴠ :** [ɢᴇɴᴏꜱ](https://t.me/Fuckingenos)
+» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴊᴀꜱʜᴀɴ](https://t.me/Jashxn_69)
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
