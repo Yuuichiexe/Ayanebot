@@ -25,7 +25,6 @@ ffmpeg-python
 fontTools
 future
 geopy
-nudepy
 git+https://github.com/python-telegram-bot/ptbcontrib.git
 gitpython
 glitch_this
@@ -54,6 +53,7 @@ motor<2.4.0,>=2.1.0
 multicolorcaptcha
 nekos.py
 nltk
+nudepy
 NumPy
 odmantic
 opencv-python-headless
