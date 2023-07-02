@@ -119,12 +119,12 @@ PM_START_TEX = """
 
 PM_START_TEXT = """
 *Hᴇʏ* {}, 🥀
-*๏ ᴛʜɪs ɪs* 𝙴ꜱᴅᴇᴀᴛʜ !
+*๏ ᴛʜɪs ɪs* 𝚈ᴀᴍᴀᴅᴀ 𝚂ᴀɢɪʀɪ!
 ──────────────────
 ──────────────────
 ➤ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ꜰᴇᴀᴛᴜʀᴇs.
 ──────────────────
-[๏](https://telegra.ph/file/db7944c238c4c9b5044ce.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴɴ ᴍᴏʀᴇ.*
+[๏](https://telegra.ph/file/94553541c2a667b22c53a.jpg) *ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴɴ ᴍᴏʀᴇ.*
 """
 
 
@@ -152,7 +152,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-[❃](https://telegra.ph/file/5391d1696decca2621575.jpg)*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
+[❃](https://telegra.ph/file/5011b3ea6153ea6e1d882.jpg)*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 ⍟ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 ⍟ /help <module name>: ᴘᴍ ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 ⍟ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
@@ -301,7 +301,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
+            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n⚶ᴜᴘᴛɪᴍᴇ: `{}` \n⚶ᴜsᴇʀs: `{}` \n⚶ᴄʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
@@ -460,9 +460,9 @@ def Exon_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="⬅️", callback_data="Exon_prev"),
+                        InlineKeyboardButton(text="❯", callback_data="Exon_prev"),
                         InlineKeyboardButton(text="𝙱ᴀᴄᴋ", callback_data="Exon_back"),
-                        InlineKeyboardButton(text="➡️", callback_data="Exon_next"),
+                        InlineKeyboardButton(text="❮", callback_data="Exon_next"),
                     ]
                 ]
             ),
@@ -763,8 +763,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.me/NIOAX)
-⍟ **ᴍʏ ᴅᴇᴠ :** [ɢᴇɴᴏꜱ](https://t.me/Fuckingenos)
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ɴɪᴏᴀx](https://t.meJashxn_69)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
@@ -834,7 +833,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇS Any issu JOIN @WoFBotsSupport : {str(ALL_MODULES)}"
+        f"sᴜᴄᴄᴇssғᴜʟʟʏ ʟᴏᴀᴅᴇᴅ ᴍᴏᴅᴜʟᴇs ᴀɴʏ ɪꜱꜱᴜᴇ ᴊᴏɪɴ @Xd_Bots_Support : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pgram.start()
