@@ -20,7 +20,7 @@ from Exon.modules.helper_funcs.readable_time import get_readable_time
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://telegra.ph/file/a3c14024f12db72665d51.mp4"
+AFKVID = "https://graph.org/file/9bec84c5703a7c0ee5905.mp4"
 
 
 def afk(update, context):
