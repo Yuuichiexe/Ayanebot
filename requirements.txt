@@ -25,6 +25,7 @@ ffmpeg-python
 fontTools
 future
 geopy
+nudepy
 git+https://github.com/python-telegram-bot/ptbcontrib.git
 gitpython
 glitch_this
