@@ -68,11 +68,11 @@ pykeyboard
 pymongo>=3.10
 pynewtonmath
 pyrate-limiter
-pyrogram==1.4.16
+pyrogram==2.0.97
 python-arq
 python-dotenv
 python-rapidjson
-python-telegram-bot==20.00
+python-telegram-bot==13.00
 pytimeparse
 pytube
 pytz
